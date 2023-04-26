@@ -57,20 +57,38 @@ h1 {
 
 .content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 40px;
-    padding: 0 300px;
-    margin-top: 40px;
+    grid-template-columns: minmax(0, 1fr) minmax(200px, 1fr);
+    grid-gap: 20px;
+    padding: 0 400px;
+    margin-top: 10px;
 }
 
 .content img {
-    width: 100%;
+    width: 75%;
     height: auto;
     grid-row: 1 / span 2;
 }
-
+    
 .content p {
     margin: 0;
-    grid-column: 2 / -1;
     align-self: center;
+}
+  
+.content p:first-child {
+    grid-column: 2 / -1;
+    grid-row: 1 / span 2;
+}
+  
+.content p:not(:first-child) {
+    grid-column: 2 / -1;
+    grid-row: auto;
+}
+
+.text-content {
+    padding: 0 400px;
+    margin-top: 10px;
+}
+
+.text {
+    padding: 10px 0;
 }
