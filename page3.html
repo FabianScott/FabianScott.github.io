@@ -19,8 +19,39 @@
             <p>The process and find social structures in the Star Wars Universe, we needed data from all characters. We used a combination of websites and API's to get the data needed. First we used the <a href="https://starwars-databank.vercel.app/">Star Wars API</a> to get all the characters name and a small description of them that we save for use later. We then webscrabed to <a href="https://www.starwars.com/databank">Star Wars Databank</a> for additional information about each character. We where then able to get more information on some of the characters including their species, locations where they appeared, gender, history and more. In total we collected up to 11 parameters for each character. By doing this our dataset went from a size of 5 KB to 555 KB.</p>
         </div>
 		<div class="content">
-            <img src="data.png" alt="Test Image">
-            <p>To give you a better understanding of our dataset, the table on the left shows the most import properties of our datasets.</p>
+            <table>
+				<tr>
+				  <th> </th>
+				  <th>Characters</th>
+				  <th>Movie scripts</th>
+				</tr>
+				<tr>
+				  <td>Size</td>
+				  <td>554 KB</td>
+				  <td>181 KB</td>
+				</tr>
+				<tr>
+				  <td>Rows</td>
+				  <td>964</td>
+				  <td> </td>
+				</tr>
+				<tr>
+				  <td>Columns</td>
+				  <td>15</td>
+				  <td> </td>
+				</tr>
+				<tr>
+				  <td>Nodes</td>
+				  <td>964</td>
+				  <td> </td>
+				</tr>
+				<tr>
+				  <td>Links</td>
+				  <td>~2000</td>
+				  <td> </td>
+				</tr>
+			  </table>			  
+            <p>In addition to this, we also collected all dialogues for the fourth, fifth and sixth movie from <a href="https://www.kaggle.com/datasets/xvivancos/star-wars-movie-scripts?resource=download&select=SW_EpisodeIV.txt">kaggle</a>. By preprocessing the data, we were able to find the number of nodes and number of links between two nodes. In the character dataset, nodes are characters in which we were able to get their data from the databank. In the movie script dataset, nodes are all characters that appear the three movies. To give you a better understanding of our datasets, the table on the left shows the most import properties of our datasets.</p>
         </div>
 		<div class="text-content">
 			<p>To learn even more download our explainer notebook <a href="">here.</a></p>
