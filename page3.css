@@ -1,0 +1,5 @@
+.content img {
+    width: 90%;
+    height: auto;
+    grid-row: 1 / span 2;
+}
