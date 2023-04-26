@@ -1,8 +1,8 @@
 
 const navBar = [
     {name: 'Home', href: 'index.html'},
-    {name: 'Groups', href: 'page1.html'},
-    {name: 'Text Analysis', href: 'page2.html'},
+    {name: 'Characters', href: 'page1.html'},
+    {name: 'Movie Scripts', href: 'page2.html'},
     {name: 'Behind the data', href: 'page3.html'},
 ]
 
