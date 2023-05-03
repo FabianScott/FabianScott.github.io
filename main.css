@@ -55,12 +55,35 @@ h1 {
 	margin-bottom: 20px;
 }
 
+h2 {
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+
 .content {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(200px, 1fr);
     grid-gap: 20px;
     padding: 0 400px;
     margin-top: 10px;
+}
+
+.galleri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 20px;
+    padding: 0 400px;
+}
+
+.galleri img {
+    width: calc(100% / var(--cols));
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .content img {
@@ -91,5 +114,14 @@ h1 {
 }
 
 .text-content p {
-    padding: 10px 0;
+    padding: 7px 0;
+}
+
+.h-line {
+    margin: 20px 400px;
+    border: 3px;
+    border-radius: 5px;
+    height: 5px;
+    border-style: solid;
+    border-color: rgb(79, 78, 78);
 }
