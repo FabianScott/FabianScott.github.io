@@ -64,7 +64,7 @@ h2 {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(200px, 1fr);
     grid-gap: 20px;
-    padding: 0 400px;
+    padding: 0 200px;
     margin-top: 10px;
 }
 
@@ -75,7 +75,7 @@ h2 {
     align-items: center;
     height: 180px;
     gap: 20px;
-    padding: 0 400px;
+    padding: 0 200px;
 }
 
 .galleri img {
@@ -111,7 +111,7 @@ h2 {
 }
 
 .text-content {
-    padding: 0 400px;
+    padding: 0 200px;
     margin-top: 10px;
 }
 
@@ -120,7 +120,7 @@ h2 {
 }
 
 .h-line {
-    margin: 20px 400px;
+    margin: 20px 200px;
     border: 3px;
     border-radius: 5px;
     height: 5px;
