@@ -2,6 +2,7 @@
 const navBar = [
     {name: 'Home', href: 'index.html'},
     {name: 'Characters', href: 'page1.html'},
+    {name: 'Word Analysis', href: 'page4.html'},
     {name: 'Movie Scripts', href: 'page2.html'},
     {name: 'Behind the data', href: 'page3.html'},
 ]
