@@ -16,7 +16,6 @@
         <h1>Analyzing Star Wars movie scripts</h1>
 		<div class="text-content">
 			<p>In this part, we will analyze the movie scripts from Star Wars and the social structures within. To see more information about the dataset using in this section, go to "Behind The Data".</p>
-			<p>This section will include: temporal graphs of key characters, word frequency analysis for each episode and sentiment analysis.</p>
 		</div>
 		<div class="h-line"></div>
 		<h2>Finding key characters</h2> 
@@ -29,12 +28,213 @@
 			<img src="numberOfLinksEpisode5.png" alt="Test Image">
 		</div>
 		<div class="text-content">
-			<p>Here the 10 characters with the most interactions with others are seen for each episode. We can see that the characters with the most dialogues with other characters are Luke & Threepio. We will therefore study how their social structure developes throughout these 3 episodes of the movie.</p>
+			<p>Here the 10 characters with the most interactions with others are seen for each episode.</p>
+			<p>We can determine some key characters that have the most dialogues with other characters as: Luke, C-3PO (Threepio), Vader, Han and Leia.</p>
+			<p>We will therefore study how their social structure developes throughout these 3 episodes of the movie.</p>
 		</div>
+		<div class="h-line"></div>
+		<h2>Luke:</h2> 
+		<img src="lukeTemporal.png" alt="Test Image">
 		<div class="content">
-            <img src="test1.jpeg" alt="Test Image">
-            <p>Text analysis</p>
+            <table>
+				<tr>
+				  <th>Episode</th>
+				  <th>Number of relationships</th>
+				  <th>Procent increase</th>
+				</tr>
+				<tr>
+				  <td>Episode 4:</td>
+				  <td>43</td>
+				  <td>0%</td>
+				</tr>
+				<tr>
+				  <td>Episode 5:</td>
+				  <td>63</td>
+				  <td>46.51%</td>
+				</tr>
+				<tr>
+				  <td>Episode 6:</td>
+				  <td>78</td>
+				  <td>81.40%</td>
+				</tr>
+			  </table>			  
+            <p>The table on the left shows how Luke's relationsships develop over the 3 episodes (movie 4, 5 and 6). The procent increase is compared to Episode 4.</p>
         </div>
+		<div class="text-content">
+			<p>We will now compare these findings with the other main characters.</p>
+		</div>
+		<div class="text-content">
+			<p>The exact same analysis will now follow for each of them: </p>
+		</div>
+
+		<div class="h-line"></div>
+		<h2>C-3PO:</h2> 
+		<img src="threepio.png" alt="Test Image">
+		<div class="content">
+            <table>
+				<tr>
+				  <th>Episode</th>
+				  <th>Number of relationships</th>
+				  <th>Procent increase</th>
+				</tr>
+				<tr>
+				  <td>Episode 4:</td>
+				  <td>27</td>
+				  <td>0%</td>
+				</tr>
+				<tr>
+				  <td>Episode 5:</td>
+				  <td>56</td>
+				  <td>107.41%</td>
+				</tr>
+				<tr>
+				  <td>Episode 6:</td>
+				  <td>74</td>
+				  <td>174.07%</td>
+				</tr>
+			  </table>			  
+			<p>C-3PO also known as 'Threepio' sees a similar pattern as Luke although the procentwise growth is larger. This is mainly due to C-3PO not having conversations with many others that Luke in the first movie. C-3PO has the second most dialogues just under Luke, but the number of relationships is very small.</p>
+        </div>
+
+		<div class="h-line"></div>
+		<h2>Vader:</h2> 
+		<img src="Vader.png" alt="Test Image">
+		<div class="content">
+            <table>
+				<tr>
+				  <th>Episode</th>
+				  <th>Number of relationships</th>
+				  <th>Procent increase</th>
+				</tr>
+				<tr>
+				  <td>Episode 4:</td>
+				  <td>33</td>
+				  <td>0%</td>
+				</tr>
+				<tr>
+				  <td>Episode 5:</td>
+				  <td>55</td>
+				  <td>66.67%</td>
+				</tr>
+				<tr>
+				  <td>Episode 6:</td>
+				  <td>73</td>
+				  <td>121.21%</td>
+				</tr>
+			  </table>			  
+            <p>The growth continues to go up. Vader has more relationships than C-3PO, but less than Luke in the first movie, however we do see an significant increase in relationsships in movie 5 and 6, although he is the main character with the least amount of dialogues. This suggest Vader does not speak and are not as present as the other characters, but when he is, it if often with people he has not been seen in with before.</p>
+        </div>
+
+		<div class="h-line"></div>
+		<h2>Han:</h2> 
+		<img src="Han.png" alt="Test Image">
+		<div class="content">
+            <table>
+				<tr>
+				  <th>Episode</th>
+				  <th>Number of relationships</th>
+				  <th>Procent increase</th>
+				</tr>
+				<tr>
+				  <td>Episode 4:</td>
+				  <td>16</td>
+				  <td>0%</td>
+				</tr>
+				<tr>
+				  <td>Episode 5:</td>
+				  <td>40</td>
+				  <td>150.0%</td>
+				</tr>
+				<tr>
+				  <td>Episode 6:</td>
+				  <td>57</td>
+				  <td>256.25%</td>
+				</tr>
+			  </table>			  
+			<p>Han has a massive boost in relationships in Episode 5. This is mainly due to him not being as present in the fourth movie, but the third most active in the third movie. The procentwise increase is therefore overly exactered compared to the actual number of relationsships precisely for that reason.</p>
+        </div>
+
+		<div class="h-line"></div>
+		<h2>Leia:</h2> 
+		<img src="Leia.png" alt="Test Image">
+		<div class="content">
+            <table>
+				<tr>
+				  <th>Episode</th>
+				  <th>Number of relationships</th>
+				  <th>Procent increase</th>
+				</tr>
+				<tr>
+				  <td>Episode 4:</td>
+				  <td>14</td>
+				  <td>0%</td>
+				</tr>
+				<tr>
+				  <td>Episode 5:</td>
+				  <td>32</td>
+				  <td>128.57%</td>
+				</tr>
+				<tr>
+				  <td>Episode 6:</td>
+				  <td>51</td>
+				  <td>264.29%</td>
+				</tr>
+			  </table>			  
+			<p>Leia sees the exact same pattern as Han in the fourth movie. She is not as present in the fourth movie as Han, but more present in the fifth movie, and the growth of social relationssips therefore growths more smoothly.</p>
+        </div>
+
+		<div class="h-line"></div>
+		<div class="content">
+            <table>
+				<tr>
+				  <th>Character</th>
+				  <th>Number of final relationships</th>
+				  <th>Number of dialogues</th>
+				</tr>
+				<tr>
+				  <td>Luke</td>
+				  <td>72</td>
+				  <td>494</td>
+				</tr>
+				<tr>
+				  <td>C-3PO</td>
+				  <td>51</td>
+				  <td>301</td>
+				</tr>
+				<tr>
+				  <td>Vader</td>
+				  <td>63</td>
+				  <td>140</td>
+				</tr>
+				<tr>
+					<td>Han</td>
+					<td>52</td>
+					<td>459 </td>
+				  </tr>
+				  <tr>
+					<td>Leia</td>
+					<td>47</td>
+					<td>227</td>
+				  </tr>
+			  </table>			  
+			<p>It seems that all characters end up having the (very close to) same number of connections at the end. We can see that they do not have the same amount of dialogues, which means some people interact more with each other than others (we can imagine Luke and Threepio have a pretty strong connection and a lot of dialogues together.)</p>
+        </div>
+		<div class="text-content">
+			The table above proves the analysis made for each of the main characters. Luke is having many conversations with many different people. C-3PO has a bunch of conversation, but that with as many different people. Vader has the least amount of dialogues, but second most relationsships. Leia and Han have least amount of relationsships, but han with double the amount of dialogues. This matches the storyline in the movies. But now the interesting part: What are they actually saying? What are the tone, main word, etc? Let's find out:
+		</div>
+		<div class="h-line"></div>
+		<h2>Word Analysis: </h2> 
+		<div class="text-content">
+			<p>To see more on how we made this word analysis, see our notebook at "Behind the data".</p>
+		</div>
+		<img src="wordsEachCharacter.png" alt="Test Image">
+
+		<div class="h-line"></div>
+		<div class="text-content">
+			<p>We can now do the same analysis on each of the episodes:</p>
+		</div>
+		<img src="wordsEachEp.png" alt="Test Image">
+
 	</main>
 </body>
 </html>
