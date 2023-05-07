@@ -2,6 +2,16 @@ img {
     width: 20%;
 }
 
+.galleri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+    padding: 0 100px;
+}
+
 .galleri img {
     width: calc(100% / var(--cols));
     height: 100%;
