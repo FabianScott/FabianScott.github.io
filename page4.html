@@ -13,27 +13,115 @@
         <script src="navBar.js"></script>
 	</header>
 	<main>
-        <h1>Analyzing Star Wars movie scripts</h1>
+        <h1>Word Analysis of groups</h1>
 		<div class="text-content">
-			<p>In this part, we will analyze the movie scripts from Star Wars and the social structures within. To see more information about the dataset using in this section, go to "Behind The Data".</p>
-			<p>This section will include: temporal graphs of key characters, word frequency analysis for each episode and sentiment analysis.</p>
+			<p>If you haven't already, read the Characters section first; that will give you a much better idea of what this page does.</p>
 		</div>
 		<div class="h-line"></div>
-		<h2>Finding key characters</h2> 
+		<h2>Choosing groups:</h2> 
 		<div class="text-content">
-			<p>Before making temporal graphs for the key character, we need to find which characters are key. Ofcource, we do have our assumptions, but to be sure we are right, we will do some analysis. This can be done by analyzing the movie scripts. We make the assumption that the characters with the most dialogues with other characters, are key characters. We can do this for each episode: </p>
-		</div>
-		<div class="galleri">
-			<img src="numberOfLinksEpisode4.png" alt="Test Image">
-			<img src="numberOfLinksEpisode5.png" alt="Test Image">
-			<img src="numberOfLinksEpisode5.png" alt="Test Image">
-		</div>
+            <p>We chose the 2-5 categories Affiliations, Appearances, Locations, Gender, and Species to be the most interesting categories to look at in the Star Wars universe. In these different categories we'll look at the wordclouds of the top 2-5 groups within the different categorizations.</p>
+            <p>This type of semantic analysis helps us to get a better understanding of the different groups within the Star Wars universe. Visualizing which words are the most important within the different groups and how they differ from each other.</p>
+            <p>All these 2-5 property/categories are gathered from our descriptions dataset.</p>
+        </div>
+        <div class="h-line"></div>
+		<h2>Affiliations:</h2> 
 		<div class="text-content">
-			<p>Here the 10 characters with the most interactions with others are seen for each episode. We can see that the characters with the most dialogues with other characters are Luke & Threepio. We will therefore study how their social structure developes throughout these 3 episodes of the movie.</p>
-		</div>
-		<div class="content">
-            <img src="test1.jpeg" alt="Test Image">
-            <p>Text analysis</p>
+            <p>The affiliation property is probably the most interesting property to look at in the Star Wars universe because of the type of stories the Star Wars movies and series most often depict, that of a war between good and evil.</p>
+            <p>With political drama, back stabbing, war etc. So the affiliation property already reveals some of these secret connections between the characters.</p>
+        </div>
+        <div class="sh-line"></div>
+        <div class="content2">
+            <img src="Wordcloud_Affiliations_GalacticRepublic.png" alt="Affiliations">
+            <h3>Galactic Republic</h3>
+            <p>The Galactic Republic, is the supposedly "democratic" and neutral faction in the Star Wars universe. Some words standout, "Clones" being the Republic's army, "Senate" being the Republic's political body, "Jedi" being the Republic's peacekeepers, "Palpatine" being the Republic's traitor and chancellor, "Separtist" being the opposing faction. Because this faction is the most neutral/encompassing faction, it's wordcloud is also the most mixed.</p>
+        </div>
+        <div class="sh-line"></div>
+        <div class="content2">
+            <img src="Wordcloud_Affiliations_GalacticRepublic.png" alt="Affiliations">
+            <h3>Jedi Order </h3>
+            <p>For the Jedi Order we see some relevent words to the Jedi, both related directly to the Jedi Order: "Jedi", "Council", "Youngling", "Padawan", "Training", "Master", "Temple", "Lightsaber" etc. But we also less commonly see words related to the enemies of the Jedi: "Dark", "Troopers", "Dooku", and of course also the names of members of the Jedi Order: "Luke", "Anakin", "Skywalker", "Yoda" etc. Overall this wordcloud is very selfcontained.</p>
+        </div>
+        <div class="sh-line"></div>
+        <div class="content2">
+            <img src="Wordcloud_Affiliations_GalacticRepublic.png" alt="Affiliations">
+            <h3>Galactic Empire  </h3>
+            <p>The Galactic Empire is the generally "evil" faction of the Star Wars universe that replace the Republic, where there are some words that clearly weigh more than the rest. One of those categories are the words relating to honorifics and such: "Admiral", "Imperial", "Empire", "Emperor", "Officer", "Darth", "Commander". There are also some very clear combinations of words, "Death" and "Star" because of the Death Star. "Darth" and "Vader" because of Darth Vader.</p>
+        </div>
+        <div class="sh-line"></div>
+        <div class="content2">
+            <img src="Wordcloud_Affiliations_GalacticRepublic.png" alt="Affiliations">
+            <h3>Rebel Alliance  </h3>
+            <p>The Rebel Alliance is the faction opposing the Galactic Empire, and the most prominent words in their wordcloud are heavily related to the different battles and things related to that, like "Hoth", "Endor", "Yavin", "Squadron", "Pilot", "Base", "Rebel", "Rebellion", "Battle", etc. We also see the names of the most prominent members of the Alliance, Luke Skywalker, Leia Organa, Han Solo, etc. Unsuprisingly the wordcloud for the Alliance is also very selfcontained, which is to be expected from a faction that is so focused on one thing and in such opposition by other factions.</p>
+        </div>
+        <div class="sh-line"></div>
+        <div class="content2">
+            <img src="Wordcloud_Affiliations_GalacticRepublic.png" alt="Affiliations">
+            <h3>The Resistance  </h3>
+            <p>The Resistance is the faction opposing the First Order, and the most prominent words in their wordcloud are also related more to that of battle, and is very reminiscent of the observations from the Rebel Alliance, "Resistance", "Leia", "Organa", "Poe", "Base", "Starfighter", "X-wing". Surprisingly enough we don't see the names of the new characters like Finn and Rey even though they are the main characters of the new trilogy. But it makes sense if you look at this with the perspective of Hollywood, where the old familiar characters are still the most important.</p>
+        </div>
+        <div class="h-line"></div>
+        <h2>Appearances</h2> 
+        <div class="text-content">
+            <p>The appearances property is also interesting to look at when compared to the affiliation property, because it shows how the characters and factions are pretty closely distributed across the different movies and series. Meaning that any single movie will focus on mostly on a single faction, and will therefore also have pretty self contained wordclouds.</p>
+        </div>
+        <div class="sh-line"></div>
+        <div class="galleri">
+            <img src="Wordcloud_Affiliations_GalacticRepublic.png" alt="Affiliations">
+            <img src="Wordcloud_Affiliations_JediOrder.png" alt="Affiliations">
+            <img src="Wordcloud_Affiliations_GalacticEmpire.png" alt="Affiliations">
+            <img src="Wordcloud_Affiliations_RebelAlliance.png" alt="Affiliations">
+            <img src="Wordcloud_Affiliations_TheResistance.png" alt="Affiliations">
+        </div>
+        <div class="text-content">
+            <p>For Episodes IV-VI we can see that there's a lot of overlap with the Rebel Alliance, which makes sense since these first Star Wars movies were put a lot of focus on Luke Skywalker and his journey. Throughout the episodes we notice some patterns:</p>
+            <p>In Episode IV, there are a lot of words related to Tatooine, since that's the location of most of the movie, with some notable mentions of Obi-Wan Kenobi and the Death Star. In Episode V, there's a bigger focus on large scale battles and we find more words in common with the Rebel Alliance like "Hoth", "Rebel" etc. And this is the first time we really meet Darth Vader, which is easily seen in the wordcloud. In Episode VI, we notice mentions of things related to the location Tatooine, and Endor, which are very prominent places in the movie, with words like "Jabba", "Hutt", "Rancor", and "Ewok" being prominent.</p>
+            <p>In the Star Wars: The Clone Wars, TV series wordcloud we can see things related to the Galactic Republic and the Jedi Order, with the words almost entirely matching a mix of the two, which isn't surprising since the series is focused on those two exact factions. In Episode VII, we focus a lot on The Resistance, and the "Starkiller" + "Base" and the "First" + "Order" etc. and generally matching the Resistance wordcloud. </p>
+        </div>
+        <div class="h-line"></div>
+        <h2>Locations</h2> 
+        <div class="text-content">
+            <p>While the affiliations and appearances are more interesting to look at from a story perspective, it's also interesting to get an insight into how these different factions connect across different locations.</p>
+        </div>
+
+        <div class="galleri">
+            <img src="Wordcloud_Locations_Coruscant.png" alt="Affiliations">
+            <img src="Wordcloud_Locations_Kamino.png" alt="Affiliations">
+            <img src="Wordcloud_Locations_Naboo.png" alt="Affiliations">
+            <img src="Wordcloud_Locations_Tatooine.png" alt="Affiliations">
+        </div>
+        <div class="text-content">
+            <p>We quickly spot some connections between the different locations: Coruscant is the planet of the Galactic Republic, and the Jedi Order, which explains the overlap between the two faction's wordclouds. Kamino is the planet of the Clone Army, which explains the overlap between it and the Galactic Republic.</p>
+            <p>Naboo is a planet where we haven't really explored much about the factions, it predicatbly shows some slight overlap with the Galactic Republic, but is mostly selfcontained. Tatooine is a very prominent location for many of the Star Wars movies, and it also has a lot of overlap with the different movies like Episode IV and VI, and then also the Alliance.</p>
+        </div>
+
+        <div class="h-line"></div>
+        <h2>Gender</h2> 
+        <div class="text-content">
+            <p>We thought it'd be interesting to see how different the context of the two genders in the universe was, and there is a noticeable difference. </p>
+        </div>
+
+        <div class="galleri">
+            <img src="Wordcloud_Gender_Female.png" alt="Affiliations">
+            <img src="Wordcloud_Gender_Male.png" alt="Affiliations">
+        </div>
+        <div class="text-content">
+            <p>As can be seen on the wordclouds, the female wordcloud includes a lot of words related to the "Queen", "Padmé", and more word in common with the Rebels. In slight contrast to that, the male wordcloud has many more words directly related to battle and military, which makes sense since most of the characters in the Jedi Council are men and the same goes for the Galactic Empire etc. The protaganist is often male and the antagonist is often male, so I guess this checks out.</p>
+        </div>
+
+        <div class="h-line"></div>
+        <h2>Species</h2> 
+
+        <div class="galleri">
+            <img src="Wordcloud_species_Human.png" alt="Affiliations">
+            <img src="Wordcloud_species_Ithorians.png" alt="Affiliations">
+            <img src="Wordcloud_species_Rodian.png" alt="Affiliations">
+            <img src="Wordcloud_species_Trandoshan.png" alt="Affiliations">
+            <img src="Wordcloud_species_Twilek.png" alt="Affiliations">
+        </div>
+
+        <div class="text-content">
+            <p>In the end we thought it'd be interesting to see how the different species in the Star Wars universe are connected, but since the Star Wars universe is pretty mixed in terms of alien races we thought it'd be interesting to look at. Unfortunately these wordclouds seem to mostly be selfcontained, with the exception of the "Human" wordcloud, which has some overlap with all the other wordclouds, which makes sense since by far most of the main characters in the Star Wars universe are human.</p>
         </div>
 	</main>
 </body>
