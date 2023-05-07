@@ -3,6 +3,7 @@
 <head>
 	<title>Groups</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="page1.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 </head>
 <body>
@@ -13,11 +14,55 @@
         <script src="navBar.js"></script>
 	</header>
 	<main>
-        <h1>Social Structures in Star Wars</h1>
-		<div class="content">
-            <img src="test1.jpeg" alt="Test Image">
-            <p>Groups, modularity, louvain-algorithm</p>
+        <h1>Groups in the Star Wars Universe</h1>
+		<div class="text-content">
+            <p>In this section we show the graph coloured by property for each of the different properties found in our source. Some are rather sparse, as only a handful of character have any value for the property. There is a huge number of nodes that have no links to any other node. This is to be expected due to the nature of characters in the expanded universe of Star Wars. Many characters are introduced in obscure media such as books that few people read, and thus our source does not have much to say about them, leading to no connections. </p>
+			<p>There are two properties in particular we wish to highlight. Firstly, the appearances graph shows that the material in which a character appears is a good predictor of being connected to one another. Secondly, the affiliations graph shows how what side you support does not indicate whether you are linked, despite this being an intuitive way of making connection. These two observations are supported by the modularity for each of the properties. The rest of the properties have very low modularity, and we thus conclude that the only good clustering to be found amongst properties is that of appearances.</p>
         </div>
+		<div class="sh-line"></div>
+		<div class="galleri">
+			<img src="Screenshot 2023-05-07 at 19.18.33.png" alt="Test Image">
+			<img src="Screenshot 2023-05-07 at 19.18.43.png" alt="Test Image">
+			<img src="Screenshot 2023-05-07 at 19.18.49.png" alt="Test Image">
+			<img src="Screenshot 2023-05-07 at 19.18.54.png" alt="Test Image">
+		</div>
+		<div class="galleri">
+			<img src="Screenshot 2023-05-07 at 19.19.11.png" alt="Test Image">
+			<img src="Screenshot 2023-05-07 at 19.19.19.png" alt="Test Image">
+			<img src="Screenshot 2023-05-07 at 19.19.30.png" alt="Test Image">
+			<img src="Screenshot 2023-05-07 at 19.19.37.png" alt="Test Image">
+		</div>
+		<div class="galleri">
+			<img src="Screenshot 2023-05-07 at 19.19.06.png" alt="Test Image">
+			<img src="Screenshot 2023-05-07 at 19.19.00.png" alt="Test Image">
+			<img src="Screenshot 2023-05-07 at 19.19.41.png" alt="Test Image">
+			<img src="Screenshot 2023-05-07 at 19.19.46.png" alt="Test Image">
+		</div>
+		<p></p>
+		<p></p>
+		<p></p>
+		<div class="text-content">
+			<p>To get more information on how these graphs are made and their interpretation, see our explainer notebook at "Behind the data".</p>
+			<p>Many of the graphs have many categories and thus are uninformative when it comes to drawing any conclusions about the connections in Star Wars. </p>
+		</div>
+
+		<div class="sh-line"></div>
+		<h1>The best group</h1>
+
+		<div class="text-content">
+			<p>The best group is found using the Louvain algorithm:</p>
+		</div>
+
+		<img src="Screenshot 2023-05-07 at 19.19.11.png" alt="Test Image">
+
+		<div class="text-content">
+			<p>The final graph shown is the clustering created by the Louvain algorithm. This is closest to matching the appearances clustering.</p>
+		</div>
+
+		<div class="text-content">
+			<p>The bi-directionality of the graph does lead to some loss of information as the nature of the edges is a mention in one article of the other. However, we decided that such a connection should be a between both character as there were so few connections in the entire graph. We did consider using other sources to add nodes to the graph, but could not find sufficient material or methods to achieve this.</p>
+			<p>Our main insight from the graph, is the strong connection that appearing in the same material provides, and that most other properties do not result in a link between two characters in our data source.</p>
+		</div>
 	</main>
 </body>
-</html>
+</html>>
