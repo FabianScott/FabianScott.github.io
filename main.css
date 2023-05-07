@@ -91,7 +91,7 @@ h2 {
 }
 
 .galleri img {
-    width: calc(100% / var(--cols));
+    width: calc(80% / var(--cols));
     height: 100%;
     object-fit: cover;
     margin: 0;
